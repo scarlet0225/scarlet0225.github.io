@@ -1,0 +1,203 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h2{
+  color: #333333;
+}
+a{
+  color: #505050;
+  text-decoration-line: none;
+  transition: 0.2s linear;
+}
+a:hover{
+  color: #900000;
+}
+body{
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  background: #fff;
+  font: normal 300 14px/1 'Hiragino Kaku Gothic ProN', 'Meiryo', sans-serif;
+}
+
+.header {
+  width: 1190px;
+  height: 140px;
+  display: flex;
+  margin: 0px auto;
+  padding: 10px 0px;
+}
+.header .logo-box {
+  width: 190px;
+  height: 90px;
+  padding: 30px 0px;
+}
+.header .header-name {
+  width: 800px;
+  height: 90px;
+  padding: 50px 100px;
+  font-size: 36px;
+  font-weight: bolder;
+}
+.menu-box {
+  width: 100%;
+  height: 30px;
+  line-height: 30px;
+  padding: 5px 0px;
+  background-color: #f0f0f0;
+  color: #000000;
+  font-size: 16px;
+  font-weight: 800;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.menu-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 20px;
+}
+.menu-title li{
+  padding: 20px;
+  list-style: none;
+}
+.slider-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slider img{
+  height: 120vh ;
+}
+
+.department-box{
+  width: 100%;
+  height: 160px;
+  text-align: center;
+}
+.department{
+  margin: 20px;
+  white-space: nowrap;
+}
+.department ul li {
+  width: 272px;
+  height: 100%;
+  display: inline-block;
+  padding: 20px 20px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.department .pic-box {
+  text-align: center;
+  margin-bottom: 15px;
+  border: 5px solid #f0f0f0;
+}
+.pic-box img:hover{
+  width: 70%;
+  height: 70%;
+}
+.home-news{
+  width: 100%;
+  height: 550px;
+  margin: 0px 0px 0px 0px;
+  padding: 60px 45px 0px 0px;
+  background-color: #f0f0f0;
+}
+.home-press{
+  width: 100%;
+  height: 400px;
+  margin: 70px 0px 0px 0px;
+  padding: 60px 45px 0px 0px;
+  background-color: #f0f0f0;
+}
+.home-box h2 {
+  color: #333;
+  font-size: 142.9%;
+  line-height: 1.3;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 15px;
+  padding-bottom: 18px;
+}
+.news-list{
+  text-align: right;
+  padding-top: 10px;
+}
+.list-news {
+  line-height: 1.4;
+  border-bottom: 1px dashed #999;
+}
+.list-news dt {
+  padding-top: 25px;
+  border-top: 1px dashed #999;
+}
+.list-news dd {
+  margin: -1.4em 0 0 11.5em;
+  padding: 0 0 25px 108px;
+  position: relative;
+}
+.home-box {
+  width: 978px;
+  margin: 0 auto;
+}
+.footer-menu{
+  width: 100%;
+  height: 50px;
+  background-color: rgb(51, 51, 51);
+  font-size: 12px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0;
+}
+.footer-menu ul{
+  text-align: center;
+  padding: 0 12px;
+}
+.footer-menu li{
+  display: inline;
+  padding: 0 12px;
+}
+.footer-menu a{
+  color: rgb(255, 255, 255);
+  text-decoration-line: none;
+}
+.footer-menu a:hover{
+  color: rgb(204, 204, 204);
+}
+.footer{
+  width: 100%;
+  height: 70px;
+  background-color: #000000;
+  font-size: 20px;
+  font-family:"Microsoft YaHei";
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer a{
+  color: rgb(255, 255, 255);
+  text-decoration-line: none;
+}
+.go-top{
+  display: flex;
+  justify-content: right;
+}
+.go-top img{
+  width: 50px;
+  margin: 0 auto;
+  position: fixed;
+  right: 80px;
+  bottom: 35px;
+  z-index: 100;
+}
+.go-top img:hover{
+  opacity:0.6;
+}
